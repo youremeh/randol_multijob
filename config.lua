@@ -1,21 +1,18 @@
-QBCore = exports['qb-core']:GetCoreObject()
+qbx = exports.qbx_core
 
 return {
-    MaxJobs = 5,
     JobIcons = {
-        ['police'] = 'fa-solid fa-shield',
-        ['ambulance'] = 'fa-solid fa-user-doctor',
-        ['electrician'] = 'fa-solid fa-bolt',
-        ['pdtow'] = 'fa-solid fa-truck-pickup',
-        ['judge'] = 'fa-solid fa-gavel',
+        ['unemployed'] = 'fa-solid fa-briefcase',
+        ['lspd'] = 'fa-solid fa-shield',
+        ['bcso'] = 'fa-solid fa-shield',
+        ['sasp'] = 'fa-solid fa-shield',
+        ['ems'] = 'fa-solid fa-user-doctor',
+        ['doj'] = 'fa-solid fa-gavel',
         ['realestate'] = 'fa-solid fa-house',
-        ['cardealer'] = 'fa-solid fa-car',
-        ['garbage'] = 'fa-solid fa-trash',
         ['casino'] = 'fa-solid fa-dice',
-        ['mechanic'] = 'fa-solid fa-wrench',
-        ['tow'] = 'fa-solid fa-truck-tow',
-        ['taxi'] = 'fa-solid fa-taxi',
-        ['vineyard'] = 'fa-solid fa-wine-bottle',
-        ['hotdog'] = 'fa-solid fa-hotdog',
+    },
+
+    GangIcons = {
+       ['lostmc'] = 'fa-solid fa-user-ninja',
     }
 }
